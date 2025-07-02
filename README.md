@@ -44,8 +44,8 @@ Each push to the `main` branch triggers:
 - **Push** the image to DockerHub
 
 This is done separately for:
-- [Backend GitHub Repo](https://github.com/welshiaaranha/courses-api-backend)
-- [Frontend GitHub Repo](https://github.com/welshiaaranha/courses-api-frontend)
+- [Backend GitHub Repo](https://github.com/welshiaaranha/course-api-backend.git)
+- [Frontend GitHub Repo](https://github.com/welshiaaranha/course-api-frontend)
 
 > Secrets (`DOCKER_USERNAME`, `DOCKER_PASSWORD`) are stored securely in each repo under `Settings → Secrets and variables → Actions`.
 
