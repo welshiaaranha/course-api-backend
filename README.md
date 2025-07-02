@@ -29,8 +29,8 @@ Edit
 
 ## DockerHub Repositories
 
-- **Backend Image:** [`<your-docker-username>/courses-backend`](https://hub.docker.com/r/welshia1511/courses-backend)
-- **Frontend Image:** [`<your-docker-username>/courses-frontend`](https://hub.docker.com/r/welshia1511/courses-frontend)
+- **Backend Image:** [`<welshia1511>/courses-backend`](https://hub.docker.com/repository/docker/welshia1511/course-api-backend/general)
+- **Frontend Image:** [`<welshia1511>/courses-frontend`](https://hub.docker.com/r/welshia1511/courses-frontend)
 
 
 ---
@@ -44,8 +44,8 @@ Each push to the `main` branch triggers:
 - **Push** the image to DockerHub
 
 This is done separately for:
-- [Backend GitHub Repo](https://github.com/welshiaaranha/backend-repo)
-- [Frontend GitHub Repo](https://github.com/welshiaaranha/frontend-repo)
+- [Backend GitHub Repo](https://github.com/welshiaaranha/courses-api-backend)
+- [Frontend GitHub Repo](https://github.com/welshiaaranha/courses-api-frontend)
 
 > Secrets (`DOCKER_USERNAME`, `DOCKER_PASSWORD`) are stored securely in each repo under `Settings → Secrets and variables → Actions`.
 
@@ -62,8 +62,8 @@ This is done separately for:
 ### Step 1: Clone the Repos
 
 ```bash
-git clone https://github.com/welshiaaranha/backend-repo.git
-git clone https://github.com/welshiaaranha/frontend-repo.git
+git clone https://github.com/welshiaaranha/courses-api-backend.git
+git clone https://github.com/welshiaaranha/courses-api-frontend.git
 Step 2: Create docker-compose.yml (in root folder)
 yaml
 Copy
