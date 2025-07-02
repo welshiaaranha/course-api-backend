@@ -33,4 +33,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: welshiaaranha/course-api-backend:latest
+          tags: welshia1511/course-api-backend:latest
