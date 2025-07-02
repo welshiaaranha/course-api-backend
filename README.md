@@ -62,8 +62,8 @@ This is done separately for:
 ### Step 1: Clone the Repos
 
 ```bash
-git clone https://github.com/welshiaaranha/courses-api-backend.git
-git clone https://github.com/welshiaaranha/courses-api-frontend.git
+git clone https://github.com/welshiaaranha/course-api-backend.git
+git clone https://github.com/welshiaaranha/course-api-frontend.git
 Step 2: Create docker-compose.yml (in root folder)
 yaml
 Copy
