@@ -257,4 +257,3 @@ mv -- "$TMP_DOWNLOAD_DIR/$distributionUrlNameMain" "$MAVEN_HOME" || [ -d "$MAVEN
 
 clean || :
 exec_maven "$@"
-# temp
