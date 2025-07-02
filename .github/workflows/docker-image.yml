@@ -23,7 +23,8 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Make mvnw executable
-        run: chmod +x backend/mvnw
+        working-directory: backend
+        run: chmod +x mvnw
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
